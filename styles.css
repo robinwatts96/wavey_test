@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     background: #202731;
+    overflow-x: hidden;
 }
 
 section {
@@ -42,6 +43,17 @@ section {
     background-color: #3c31dd;
     transform: translate(-4%, 40%);
     z-index: -1;
+}
+
+.bubble::after {
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    height: 85%;
+    width: 100%;
+    background-color: #0f0f10;
 }
 
 .blue {
