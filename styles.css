@@ -19,6 +19,16 @@ section {
     height: 225px;
     width: 100%;
     bottom: 0;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+}
+
+.curve::after {
     
 }
 
