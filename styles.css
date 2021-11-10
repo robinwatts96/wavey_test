@@ -96,6 +96,11 @@ svg {
     transform: rotate(180deg);
 }
 
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+}
+
 .blue {
     background: #3c31dd;
 }
