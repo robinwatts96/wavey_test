@@ -92,6 +92,10 @@ svg {
     background-image: url('./layer1.svg');
 }
 
+.flip {
+    transform: rotate(180deg);
+}
+
 .blue {
     background: #3c31dd;
 }
